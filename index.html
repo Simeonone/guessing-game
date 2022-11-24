@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="firstpage hidden--1">Enter a number between 1 and 12</h1>
+      <h1 class="second-page hidden--2">
+        One of the boxes below contain the number you entered. <br />
+        <br />
+        Make a guess by clicking one.
+      </h1>
+    </header>
+    <main class="content hidden--1">
+      <input type="number" class="random" />
+      <br />
+      <button class="next">Next!</button>
+    </main>
+    <section>
+      <div class="btngps hidden--2">
+        <div class="btngroups">
+          <div class="btngroup1">
+            <button class="odd qmark1 next2">?</button>
+            <button class="even qmark2 next2">?</button>
+            <button class="odd qmark3 next2">?</button>
+            <button class="even qmark4 next2">?</button>
+            <button class="odd qmark5 next2">?</button>
+            <button class="even qmark6 next2">?</button>
+          </div>
+          <div class="btngroup2">
+            <button class="odd qmark7 next2">?</button>
+            <button class="even qmark8 next2">?</button>
+            <button class="odd qmark9 next2">?</button>
+
+            <button class="even qmark10 next2">?</button>
+            <button class="odd qmark11 next2">?</button>
+            <button class="even qmark12 next2">?</button>
+          </div>
+        </div>
+        <h1 class="chance">
+          You have <span class="chancesleft"> 0 </span>chances left
+        </h1>
+        <div class="btnspage2">
+          <button class="page2 restart">Restart</button>
+          <button class="page2 hint">Hint</button>
+          <button class="page2 reveal btnshw2">
+            <span class="revealer btnshw"> Show </span> Box Numbers
+          </button>
+        </div>
+      </div>
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>HINT!</h1>
+        <p>
+          The number you entered is in a
+          <span class="correctGuess">value</span> box
+        </p>
+      </div>
+      <div class="overlay hidden--3"></div>
+    </section>
+    <article class="winmsg hidden--4">
+      <h1>You Win!</h1>
+      <br />
+      <button class="page3 win">Restart</button>
+    </article>
+    <aside class="losemsg hidden--5">
+      <h1>Oh No!</h1>
+      <br />
+      <h1>You are out of chances</h1>
+      <button class="page4 lose">Restart</button>
+    </aside>
+    <script src="script.js"></script>
+  </body>
+</html>
