@@ -19,3 +19,45 @@ body {
     sans-serif;
   font-size: 18px;
 }
+.next,
+.page2,
+.page3,
+.page4 {
+  border-radius: 15px;
+  background-color: beige;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  box-shadow: 0 9px darkslategray;
+}
+.next:hover,
+.page2:hover,
+.page3:hover,
+.page4:hover {
+  background-color: #3e8e41;
+}
+.next:active,
+.page2:active,
+.page3:active,
+.page4:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+header {
+  text-align: center;
+}
+.next2 {
+  padding: 2rem;
+  font-size: 3rem;
+  font-family: inherit;
+}
+.btngroups {
+  margin-top: 5rem;
+  width: 80%;
+  margin: auto;
+}
