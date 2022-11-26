@@ -61,3 +61,17 @@ header {
   width: 80%;
   margin: auto;
 }
+.odd {
+  background-color: #c91b1b;
+}
+.odd:hover {
+  background-color: #ff7f7f;
+  cursor: pointer;
+}
+.even {
+  background-color: #1be105;
+}
+.even:hover {
+  background-color: #90ee90;
+  cursor: pointer;
+}
