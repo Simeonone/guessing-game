@@ -145,3 +145,64 @@ header {
   border: none;
   background: none;
 }
+
+.winmsg,
+.losemsg {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.win,
+.lose {
+  margin-top: 5rem;
+}
+.hidden--1,
+.btnshw2,
+.hidden--2,
+.hidden--3,
+.hidden--4,
+.hidden--5,
+.hidden {
+  display: none;
+}
+@media (max-width: 760px) {
+  body {
+    text-align: center;
+    font-size: 65%;
+  }
+  .btngroups {
+    display: flex;
+  }
+  .btngroup1,
+  .btngroup2 {
+    flex-direction: column;
+    flex: 50%;
+  }
+  .next2 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .btnspage2 {
+    margin-top: 2rem;
+  }
+  .page2,
+  .page3,
+  .next,
+  .page4 {
+    border-radius: 15px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4.5px;
+  }
+  .chance {
+    margin-top: 1.5rem;
+  }
+  .random {
+    border: 2px;
+    font-size: 2.5rem;
+    padding: 1rem;
+    width: 12rem;
+    margin-bottom: 1.5rem;
+  }
+}
