@@ -20,7 +20,6 @@ function closeBtn() {
   theHintBtn.style.display = "none";
 }
 
-// hintBtnz.add("hint");
 secondPage.add("hidden--2");
 secondPagebtns.add("hidden--2");
 thirdPage.add("hidden--3");
@@ -29,8 +28,8 @@ document.querySelector(".random").value = " ";
 modalClasslist.add("hidden");
 body.style.backgroundColor = "#7d7d7d";
 fifthPage.add("hidden--5");
-firstPage1.remove("hidden--1"); //page1
-fristPage2.remove("hidden--1"); //page1
+firstPage1.remove("hidden--1");
+fristPage2.remove("hidden--1");
 document.querySelector(".next").addEventListener("click", function () {
   const guess = Number(document.querySelector(".random").value);
   const low = 1;
