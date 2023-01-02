@@ -164,6 +164,13 @@ header {
 .hidden {
   display: none;
 }
+footer {
+  margin-top: 3rem;
+  position: fixed;
+  border: #0a5701 solid;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
 @media (max-width: 760px) {
   body {
     text-align: center;
