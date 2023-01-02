@@ -170,6 +170,7 @@ footer {
   border: #0a5701 solid;
   padding: 0.5rem;
   border-radius: 0.5rem;
+  opacity: 60%;
 }
 @media (max-width: 760px) {
   body {
