@@ -19,6 +19,10 @@ body {
     sans-serif;
   font-size: 18px;
 }
+#confetti {
+  display: none;
+  width: 100%;
+}
 .next,
 .page2,
 .page3,
