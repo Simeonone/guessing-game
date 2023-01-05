@@ -22,6 +22,7 @@ body {
 #confetti {
   display: none;
   width: 100%;
+  border-top: rgb(82, 4, 4) dotted;
 }
 .next,
 .page2,
