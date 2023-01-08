@@ -1,5 +1,7 @@
 live link [here](https://guessing-game-simeon-osiemo.netlify.app/)
 
+link to UI mockup [here](https://xd.adobe.com/view/bf8f0431-3075-48d9-a7c1-96ea5ce7a423-eadc/)
+
 # Guessing Game
 This is a website where a user chooses any number between 1 and 12, then clicks on next where there will be 12 cards randomly shuffled.
 
