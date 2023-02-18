@@ -18,3 +18,6 @@ The user can select on the **hint** button to get a hint on what card color the 
 In addition, the user can click on the **Show Box Numbers** button to reveal the hidden numbers
 
 ![Hidden cards revealed](https://user-images.githubusercontent.com/49209736/208256748-aba546f9-ecd3-4a63-8167-ccdf65f69669.PNG)
+
+The following is a flowchart representation of the website:
+![Screenshot (1)](https://user-images.githubusercontent.com/49209736/219874427-86f5a99f-ca97-4597-af71-45c90cd8ee1c.png)
